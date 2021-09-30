@@ -4,10 +4,16 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-
         {
             "type": "java",
-            "name": "Debug(Launch) - Current File",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "Lesson3_7c6b0c65"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
             "request": "launch",
             "mainClass": "${file}"
         },
@@ -15,7 +21,7 @@
             "type": "java",
             "name": "QuestionTest",
             "request": "launch",
-            "vmargs" : "-ea",
+            "vmArgs": "-ea",
             "mainClass": "test.QuestionTest",
             "projectName": "Lesson3_7c6b0c65"
         }
