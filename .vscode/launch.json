@@ -6,10 +6,9 @@
     "configurations": [
         {
             "type": "java",
-            "name": "Launch ShapeTest",
+            "name": "Launch Current File",
             "request": "launch",
-            "mainClass": "test.ShapeTest",
-            "projectName": "Lesson3_7c6b0c65"
+            "mainClass": "${file}"
         },
         {
             "type": "java",
@@ -20,16 +19,17 @@
         },
         {
             "type": "java",
-            "name": "Launch Current File",
+            "name": "Launch QuestionTest",
             "request": "launch",
-            "mainClass": "${file}"
+            "mainClass": "test.QuestionTest",
+            "projectName": "Lesson3_7c6b0c65"
         },
         {
             "type": "java",
-            "name": "QuestionTest",
+            "name": "ShapeTest",
             "request": "launch",
-            "vmArgs": "-ea",
-            "mainClass": "test.QuestionTest",
+            "vmargs": "-ea",
+            "mainClass": "test.ShapeTest",
             "projectName": "Lesson3_7c6b0c65"
         }
     ]
