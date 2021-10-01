@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ShapeTest",
+            "request": "launch",
+            "mainClass": "test.ShapeTest",
+            "projectName": "Lesson3_7c6b0c65"
+        },
+        {
+            "type": "java",
             "name": "Launch Main",
             "request": "launch",
             "mainClass": "Main",
